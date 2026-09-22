@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Työpaja 3</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
     <script src="js/script.js" defer></script>
 </head>
 
@@ -24,5 +24,30 @@
     
     <table id="example" class="display">
     </table>
+
+    <h1>Harjoitus 2: kuuntelija & dom</h1>
+
+    <h1>Harjoitus 3: Syöttötapahtumat</h1>
+
+    <form id="feedbackForm" novalidate>
+        <label for="feedback">Palaute</label><br>
+        <textarea id="feedback" placeholder="Kirjoita palautteesi tähän..." rows="5"></textarea><br>
+    
+    <div style="margin: 4px 0;">
+        <span id="charcount">0/200</span>
+        <span id="status" aria-live="polite" style="margin-left: 8px; color: #666;"></span>
+    </div>
+    
+    <button id="sendBtn" type="submit">Lähetä</button>
+
+    <div id="preview">
+    </div>
+
+    <div id="keybox" style="padding: 20px; border: 1px solid #ccc; font-size: 1.2em;">
+        Paina mitä tahansa näppäintä...
+    </div>"
+
+    <p id="keyinfo"></p>
+
 </body>
 </html>
