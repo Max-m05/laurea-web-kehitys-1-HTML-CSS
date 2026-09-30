@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="fi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Workshop 4: DOM skriptaus</title>
+
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js" defer></script>
+</head>
+<body>
+    <h1 id="mainHeading">Workshop 4: Eläimet ja DOM</h1>
+
+    <!-- Tehtävä 1-->
+    <h2 id="taskOneHeading">Tehtävä 1: Sisällön muuttaminen</h2>
+
+    <div class="buttons">
+        <button id="changeHeadingButton">
+            Muuta otsikko
+        </button>
+
+        <button id="changeStyleButton">
+            Muuta tyyliä
+        </button>
+
+        <button id="changeTextButton">
+            Muuta eläinteksti
+        </button>
+
+    </div>
+
+    <p id="animalText">
+        Koiria on useita eri rotuja.
+    </p>
+
+    <!-- Tehtävä 2-->
+    <div id ="animalContent"></div>
+
+        <div class="buttons">
+        <button id="hideAnimalButton">
+              Piilota eläin
+        </button>
+
+        <button id="showAnimalButton">
+                Näytä eläin
+        </button>
+    </div>
+
+    <!-- Tehtävä 3-->
+    <h2>Tehtävä 3: Eläimen valitseminen</h2>
+
+    <label for="animalSelect">Valitse eläin:</label>
+
+    <select id="animalSelect">
+        <option value="dog">Koira</option>
+        <option value="cat">Kissa</option>
+        <option value="hamster">Hamsteri</option>
+        <option value="parrot">Papukaija</option>
+    </select>
+
+    <article id="selectedAnimal">
+        <h3 id="animalName">Koira</h3>
+
+        <img
+            id="animalImage2"
+            src="img/ws04_jackrussel.jpg"
+            alt="Koira"
+        >
+
+        <p id="animalDescription">
+            Kuva Jack Russelin Terrieristä.
+        </p>
+    </article>
+    
+</body>
+
+</html>
