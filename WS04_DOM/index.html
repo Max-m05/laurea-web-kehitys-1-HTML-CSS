@@ -64,7 +64,7 @@
         <h3 id="animalName">Koira</h3>
 
         <img
-            id="animalImage2"
+            id="animalImage"
             src="img/ws04_jackrussel.jpg"
             alt="Koira"
         >
@@ -73,6 +73,72 @@
             Kuva Jack Russelin Terrieristä.
         </p>
     </article>
+    
+    <!-- Tehtävä 4-->
+    <h2>Tehtävä 4: Eläinhavaintojen lisääminen</h2>
+
+    <form id="animalForm">
+        <div>
+            <label for="observationAnimal">Eläin:</label>
+
+            <input
+                type="text"
+                id="observationAnimal"
+                name="observationAnimal"
+            >
+        </div>
+
+        <div>
+            <label for="observationLocation">Havaintopaikka:</label>
+
+            <input
+                type="text"
+                id="observationLocation"
+                name="observationLocation"
+            >
+        </div>
+
+        <div>
+            <label for="observationDate">Päivämäärä:</label>
+
+            <input
+                type="date"
+                id="observationDate"
+                name="observationDate"
+            >
+        </div>
+
+        <button type="submit">
+            Lisää havainto
+        </button>
+
+    </form>
+
+    <table id="observationTable">
+        <thead>
+            <tr>
+                <th>Eläin</th>
+                <th>Havaintopaikka</th>
+                <th>Päivämäärä</th>
+            </tr>
+        </thead>
+
+        <tbody id="observationTableBody">
+
+            <tr>
+                <td>Orava</td>
+                <td>Puisto</td>
+                <td>15.9.2026</td>
+            </tr>
+
+            <tr>
+                <td>Jänis</td>
+                <td>Metsä</td>
+                <td>18.9.2026</td>
+            </tr>
+
+        </tbody>
+    </table>
     
 </body>
 
